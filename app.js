@@ -90,7 +90,7 @@ function getNoticias(message, args) {
     }
 
     req.query({
-        "apiKey": "2c7dbc70b80544edbbccb311cf40157b",
+        "apiKey": "Your key",
     });
     
     req.then((res, error) => {
@@ -142,7 +142,7 @@ function getUltimaNoticia(nome_canal) {
         let req =  unirest("GET", "http://newsapi.org/v2/top-headlines?country=pt&category=sports");
     
         req.query({
-            "apiKey": "2c7dbc70b80544edbbccb311cf40157b",
+            "apiKey": "Your API key",
         });
         
         req.then((res, error) => {
