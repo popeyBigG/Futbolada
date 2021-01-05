@@ -1,0 +1,21 @@
+{
+  "name": "futbolada",
+  "version": "1.0.0",
+  "description": "Discord Bot about football informations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "popey",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord": "^0.8.2",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "querystring": "^0.2.0",
+    "unirest": "^0.6.0"
+  }
+}
